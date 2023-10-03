@@ -167,11 +167,9 @@ body {
     padding: 2px;
     border: 2px solid gray;
     cursor:pointer;
-    top: 1px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-
+    width: 100%
 }
 .navbar{
     justify-content: space-around;
