@@ -1,32 +1,147 @@
-.left {
-    display: inline-block;
-    position: absolute;
-    left: 200px;
-    top: 10px
+.recruiters1{
+    border-bottom: 7px solid yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.highestsalary{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.placementhighlights{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.placementrecord{
+    
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.averagepackage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.placementheading{
+    
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+body {
+    background-color: white;
+}
+.placeupper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.placelower {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.placement{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    border-top: 4px solid yellow;
+}
+.sir{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+} 
+.successstories {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.success{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.studentsplaced
+{ font-weight: lighter;
+    color: white;
+    font-size: large;
+}
+.courfinal
+{
+    background-image: url('https://www.akgec.ac.in/wp-content/uploads/2019/08/slider1-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.coursetext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: medium;
+    background-color: white;
+}
+.courseoffered{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
     
 }
-.mid{
-background-color: white;
- position: absolute;
-font-weight: bold;
-left: 470px;
- display: inline-block;
- width: 33%;
- margin: 12px auto;
- top: 10px;
- font-size: x-large;
+.about
+{
+    font-size: 30px;
+    display: inline block;
+    text-align: center;
+    text-decoration: underline;
 }
-.right{
-    position: absolute;
-    right: 34px;
-    top: 20px;
-    display: inline-block;
+.abouttext {
+    align-items: center;
+    font-size: 25px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.right2 {
-    position: absolute;
-    left: 1150px;
-    top: 20px;
-    display: inline-block;
+.aboutsection{
+     justify-content: space-evenly;     
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+}
+.header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    position: sticky;
+    top: 1px;
+
+}
+.upper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 1px;
 }
 #Admissionb {
     background-color: yellow;
@@ -43,35 +158,30 @@ left: 470px;
   }
 .container {
     background-color: black;
-    display: inline-block;
-    position: absolute;
-    top: 120px;
     font-size: 20px;
     color: white;
-    padding: 10px;
+    padding: 2px;
     border: 2px solid gray;
     cursor:pointer;
+    top: 1px;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-}
-.mid2 {
-    display: inline-block;
-    position: absolute;
-    left: 900px;
-    top: 10px;
+
 }
 .navbar{
-    display: inline-block;
-    
+    justify-content: space-around;
 }
 .navbar li{
     display: inline-block;
-    
 }
 .navbar li a{
     color: white;
     text-decoration: none;
-    padding: 34px 23px;
     text-align: center;
+    padding: 10px;
+    margin: 40px;
+    justify-content: space-evenly;
 }
 .navbar li a:hover , .navbar li s:hover a.active{
     color: yellow;
@@ -79,107 +189,38 @@ left: 470px;
     padding: 34px 23px;
     
 }
-.header {
-    display: block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    top: 1px;
-    margin: 0px;
-}
+
 .task {
     display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     top: 330px;
     
     background-color: white;
 
 }
-.about
-{
-    position: absolute;
-    top: 920px;
-    text-align: center;
-    left: 680px;
-    text-decoration: underline;
-    font-size: 35px;
-}
-.abouttext {
-    font-size: 28px;
-    position: absolute;
-    top: 1020px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-.marq
-{
-    font-size: 20px;
-    position: absolute;
-    top: 290px;
-    left: 600px;
-    display: block;
-}
 .courses {
-    position: absolute;
-    top: 1150px;
-    left: 640px;
+    display: flex;
+    justify-content: center;
     font-size: 35px;
-}
-.courseim1{
-    position: absolute;
-    top: 1250px;
-    left: 175px;
-    
-}
-.courseim2{
-    position: absolute;
-    top: 1250px;
-    left: 680px;
-    
-}
-.courseim3{
-    position: absolute;
-    top: 1250px;
-    left: 1150px;
-    
-}
-.btech{
-    position: absolute;
-    top: 1450px;
-    left: 175px;
-}
-.mca {
-    position: absolute;
-    top: 1450px;
-    left: 680px;
-}
-.mtech {
-    position: absolute;
-    top: 1450px;
-    left: 1150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer {
-    position: absolute;
-    top: 1550px;
     background-color: black;
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 4px solid yellow;
 }
 .quicklinks {
     display: inline block;
-    float: left;
-    position: relative;
-    top: 0px;
-    left: 350px;
 }
 
 .address {
     display: inline-block;
     color: blue;
-    position: relative;
-    left: 175px;
     color: white;
-    font-size: 22px;
-    float: left;
+    font-size: 26px;
 }
 
 .quicklinks a{
@@ -191,4 +232,35 @@ left: 470px;
     color: yellow;
     text-decoration: underline;
     padding: 34px 23px;
+}
+.placementbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+button{
+    background-color: yellow;
+    font-size: 24px;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    color: yellow;
+    background-color: white
+    
+}
+.lastakgec {
+    color: white;
+    font-size: 30px;
+}
+.lastabout{
+    color: white;
+    font-size: 22px;
+}
+.quickheading{
+    color: white;
+    font-size: 30px;
 }

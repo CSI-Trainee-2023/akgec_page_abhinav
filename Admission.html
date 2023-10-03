@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <style>
+        body{
+            background-image: url('https://www.akgec.ac.in/wp-content/uploads/2019/08/slider1-1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+           
+        }
+
+
+        .header{
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 20px;
+            
+        }
+        .text{
+            font-size: 70px;
+            color: rgb(209, 42, 75);
+            /* border: 2px solid black; */
+           
+        }
+        .form{
+            display: flex;
+            margin-top: 100px;
+            text-align: center;
+            text-decoration: none;
+            margin-right: 30px;
+            background-color: transparent;
+            justify-content: flex-end;
+
+            
+        }
+        ::placeholder{
+            color: yellow;
+        }
+        .text2{
+            color: yellow;
+            background-color: rgb(140, 140, 244);
+            opacity: 0.5;
+            height: 30px;
+            width: 200px;
+            border-radius: 5px;
+            margin: 5px;
+            
+        }
+        .text3{
+            background-color: transparent;
+            height: 30px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: rgb(140, 140, 244);
+            opacity: 0.5;
+        }
+       
+        .text4{
+            background-color: transparent;
+            height: 30px;
+            width: 180px;
+            border-radius: 5px;
+            background-color: rgb(140, 140, 244);
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        button{
+            margin-top: 18px;
+            font-size: 15px;
+            margin: 10px;
+            width: 200px;
+            height: 40px;
+            background-color: yellowgreen;
+            cursor: pointer;
+            border: 2px solid yellowgreen;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: whitesmoke;  
+            border: 2px solid yellow;
+        }
+        .texting{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="texting">
+           <a href="index.html"><img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" width="100rem"></a>
+           <b>AJAY KUMAR GARG ENGINEERING COLLEGE</b> 
+           <div class="text">
+            TOP-RANKED
+            <br>
+            COLLEGE
+           <div class="cheat">
+            N A A C &nbsp;&nbsp;A++
+           </div>
+           </div>
+        </div>
+           <div class="form">
+            <form action="noend php">
+                ONLINE APPLICATION
+                <div class="form1">
+                   <input type="text" name="text" class="text2" placeholder="STUDENT NAME">
+                   <input type="text" name="text" class="text3" placeholder="STUDENT EMAIL ID">
+                </div>
+                <div>
+                    <input type="number" name="text" class="text2" placeholder="STUDENT MOBILE NUMBER">
+                   <input type="text" name="text" class="text3" placeholder="STUDENT CITY">
+                </div>
+    
+                
+                <div>
+                   <input type="text" name="text" class="text2" placeholder="SELECT BRANCH">
+                   <input type="text" name="text" class="text3" placeholder="SELECT COURSE">
+                </div>
+                <div class="dob">
+                    <input type="date" name="text" class="text4" placeholder="DATE">
+                 </div>
+                 <div>
+                    <button>REGISTER</button>
+                    <button>LOGIN</button>
+                 </div>
+
+            </form>
+          </div>
+        
+    </div>
+    
+</body>
+</html>
